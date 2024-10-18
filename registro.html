@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo limbo.png">
+    <title>Cadastro - Limbo®</title>
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+    
+
+     <div class="testimonials">
+        <form action="php/registro.php" method="post">
+
+            <h1>Cadastro</h1>
+
+
+            <div class="input-box">
+                <input name="username" type="text" placeholder="Nome de Usuário" required>
+                <i class="bx bxs-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input name="email" type="Email" placeholder="Email" required>
+                <i class="bx bxs-envelope"></i>
+            </div>
+
+            <div class="input-box">
+                <input name="senha" type="password" placeholder="Senha" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="check-terms">
+                <label><input type="checkbox" required>Eu aceito os termos</label>
+                <a href="#">ver termos</a>
+            </div>
+
+           <input type="submit" value="cadastrar" name="cadastrar" class="btn-login">
+
+            <div class="login-link">
+                <p>Você ja possui uma conta? <a href="login.html">Login</a></p>
+            </div>
+
+        </form>
+
+     </div>
+</body>
+</html>     
